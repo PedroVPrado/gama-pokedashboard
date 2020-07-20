@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <HeaderWrapper>
       <LogoWrapper>
-        <PokemonTitle src={pokeball} />
+        <PokemonTitle className="pokeball" src={pokeball} />
         <PokemonTitle src='https://fontmeme.com/permalink/200717/572686869a17dcc52acfc9572f28afe7.png' />
       </LogoWrapper>
     </HeaderWrapper>

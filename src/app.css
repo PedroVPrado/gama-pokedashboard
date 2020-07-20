@@ -5,3 +5,34 @@ html {
   box-sizing: border-box;
   background-color: #6CDC3E;
 }
+
+.App {
+  background-color: #6CDC3E;
+}
+
+.row {
+  background-color: #6CDC3E;
+}
+
+.row > .col-3 > .card > .card-img-top {
+  width: 10vw;
+}
+
+.row > .col-3 > .card > .card-body > .card-title {
+  font-size: 2vw;
+  text-transform: capitalize;
+  animation: color-change 10s infinite;
+}
+
+@keyframes color-change {
+  0% { color: green; }
+  35% { color: red; }
+  70% { color: blue; }
+  100% { color: green ; }
+}
+
+@media (max-width: 530px) { 
+  div > div > .pokeball {
+    width: 0px;
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import Dashboard from './pages/Dashboard';
 import './app.css';
 import Header from './components/Header';
+
 function App() {
   return (
     <>
